@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  padding: 0rem;
+
+  font-family: Helvetica, system-ui, Avenir, Inter, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Satoshi", "Helvetica";
+  font-weight: 500;
+  src: url("") format("opentype");
+}
+@font-face {
+  font-family: "Satoshi", "Helvetica";
+  font-weight: 700;
+  src: url("assets/fonts/Satoshi-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Satoshi", "Helvetica";
+  font-weight: 900;
+  src: url("assets/fonts/Satoshi-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Satoshi", "Helvetica";
+  font-weight: 300;
+  src: url("assets/fonts/Satoshi-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi", "Helvetica";
+  font-weight: normal;
+  src: url("assets/fonts/Satoshi-Regular.otf") format("opentype");
+}
+
+.ad-content-input {
+  width: 100%; /* Adjust the width as per your preference */
+}
+
+.cta-input {
+  width: 100%; /* Adjust the width as per your preference */
+}
